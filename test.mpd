@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" mediaPresentationDuration="PT58M59.958S" minBufferTime="PT5.00S" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=1.8.0-624 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet maxHeight="1080" maxWidth="1920" mimeType="video/mp4" minHeight="1080" minWidth="1920" segmentAlignment="true" startWithSAP="1">
+      <!-- MPEG Common Encryption -->
+      <ContentProtection cenc:default_KID="2a24d2b1-1fbb-474a-bf3f-043194a7a663" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+      <!-- PlayReady -->
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <mspr:pro>wgMAAAEAAQC4AzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4AcwBkAEkAawBLAHIAcwBmAFMAawBlAC8AUAB3AFEAeABsAEsAZQBtAFkAdwA9AD0APAAvAEsASQBEAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAOgAvAC8AcAByAC0AawBlAHkAbwBzAC4AbABpAGMAZQBuAHMAZQBrAGUAeQBzAGUAcgB2AGUAcgAuAGMAbwBtAC8AYwBvAHIAZQAvAHIAaQBnAGgAdABzAG0AYQBuAGEAZwBlAHIALgBhAHMAbQB4ADwALwBMAEEAXwBVAFIATAA+ADwARABTAF8ASQBEAD4AVgBsAFIANwBJAGQAcwBJAEoARQB1AFIAZAAwADYATABhAHEAcwAyAGoAdwA9AD0APAAvAEQAUwBfAEkARAA+ADwAQwBVAFMAVABPAE0AQQBUAFQAUgBJAEIAVQBUAEUAUwAgAHgAbQBsAG4AcwA9ACIAIgA+ADwAQwBJAEQAPgBzAGQASQBrAEsAcgBzAGYAUwBrAGUALwBQAHcAUQB4AGwASwBlAG0AWQB3AD0APQA8AC8AQwBJAEQAPgA8AEQAUgBNAFQAWQBQAEUAPgBzAG0AbwBvAHQAaAA8AC8ARABSAE0AVABZAFAARQA+ADwALwBDAFUAUwBUAE8ATQBBAFQAVABSAEkAQgBVAFQARQBTAD4APABDAEgARQBDAEsAUwBVAE0APgBiAHYATQBFAEMATwBvAEcANABYADAAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</mspr:pro>
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAV3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADcIARIQKiTSsR+7R0q/PwQxlKemYxoLYnV5ZHJta2V5b3MiECok0rEfu0dKvz8EMZSnpmMqAkhE</cenc:pssh>
+      </ContentProtection>
+      <Representation bandwidth="3482755" codecs="avc1.640028" frameRate="24" height="1080" id="0" scanType="progressive" width="1920">
+        <BaseURL>https://m-content-viki.s.llnwi.net/1042513v/dash/1042513v_dash_high_1080p_drm_bd1463_2104010632-video-avc1.mp4</BaseURL>
+        <SegmentBase indexRange="1911-10438">
+          <Initialization range="0-1910"/>
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="293912" codecs="avc1.640015" frameRate="24" height="238" id="1" scanType="progressive" width="426">
+        <BaseURL>https://m-content-viki.s.llnwi.net/1042513v/dash/1042513v_dash_high_240p_drm_a87231_2104010632-video-avc1.mp4</BaseURL>
+        <SegmentBase indexRange="1930-10457">
+          <Initialization range="0-1929"/>
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="510635" codecs="avc1.64001E" frameRate="24" height="360" id="2" scanType="progressive" width="640">
+        <BaseURL>https://m-content-viki.s.llnwi.net/1042513v/dash/1042513v_dash_high_360p_drm_b51333_2104010632-video-avc1.mp4</BaseURL>
+        <SegmentBase indexRange="1910-10437">
+          <Initialization range="0-1909"/>
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="697955" codecs="avc1.64001E" frameRate="24" height="480" id="3" scanType="progressive" width="852">
+        <BaseURL>https://m-content-viki.s.llnwi.net/1042513v/dash/1042513v_dash_high_480p_drm_f6906d_2104010632-video-avc1.mp4</BaseURL>
+        <SegmentBase indexRange="1931-10458">
+          <Initialization range="0-1930"/>
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="1365291" codecs="avc1.64001F" frameRate="24" height="720" id="4" scanType="progressive" width="1280">
+        <BaseURL>https://m-content-viki.s.llnwi.net/1042513v/dash/1042513v_dash_high_720p_drm_2239df_2104010632-video-avc1.mp4</BaseURL>
+        <SegmentBase indexRange="1910-10437">
+          <Initialization range="0-1909"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <!-- Audio -->
+    <AdaptationSet mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
+      <!-- MPEG Common Encryption -->
+      <ContentProtection cenc:default_KID="2a24d2b1-1fbb-474a-bf3f-043194a7a663" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+      <!-- PlayReady -->
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95">
+        <mspr:pro>wgMAAAEAAQC4AzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4AcwBkAEkAawBLAHIAcwBmAFMAawBlAC8AUAB3AFEAeABsAEsAZQBtAFkAdwA9AD0APAAvAEsASQBEAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAOgAvAC8AcAByAC0AawBlAHkAbwBzAC4AbABpAGMAZQBuAHMAZQBrAGUAeQBzAGUAcgB2AGUAcgAuAGMAbwBtAC8AYwBvAHIAZQAvAHIAaQBnAGgAdABzAG0AYQBuAGEAZwBlAHIALgBhAHMAbQB4ADwALwBMAEEAXwBVAFIATAA+ADwARABTAF8ASQBEAD4AVgBsAFIANwBJAGQAcwBJAEoARQB1AFIAZAAwADYATABhAHEAcwAyAGoAdwA9AD0APAAvAEQAUwBfAEkARAA+ADwAQwBVAFMAVABPAE0AQQBUAFQAUgBJAEIAVQBUAEUAUwAgAHgAbQBsAG4AcwA9ACIAIgA+ADwAQwBJAEQAPgBzAGQASQBrAEsAcgBzAGYAUwBrAGUALwBQAHcAUQB4AGwASwBlAG0AWQB3AD0APQA8AC8AQwBJAEQAPgA8AEQAUgBNAFQAWQBQAEUAPgBzAG0AbwBvAHQAaAA8AC8ARABSAE0AVABZAFAARQA+ADwALwBDAFUAUwBUAE8ATQBBAFQAVABSAEkAQgBVAFQARQBTAD4APABDAEgARQBDAEsAUwBVAE0APgBiAHYATQBFAEMATwBvAEcANABYADAAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</mspr:pro>
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAV3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADcIARIQKiTSsR+7R0q/PwQxlKemYxoLYnV5ZHJta2V5b3MiECok0rEfu0dKvz8EMZSnpmMqAkhE</cenc:pssh>
+      </ContentProtection>
+      <Representation audioSamplingRate="48000" bandwidth="200173" codecs="mp4a.40.2" id="8">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>https://m-content-viki.s.llnwi.net/1042513v/dash/1042513v_dash_high_1080p_drm_bd1463_2104010632-audio-und-mp4a.mp4</BaseURL>
+        <SegmentBase indexRange="1829-10368">
+          <Initialization range="0-1828"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
